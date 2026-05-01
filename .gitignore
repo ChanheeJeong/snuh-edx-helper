@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
 *.py[codz]
 *$py.class
 
@@ -31,6 +32,12 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+# User configuration (Privacy)
+user_config.json
+
+# Image captures
+*.png
 
 # Installer logs
 pip-log.txt
@@ -143,6 +150,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# My Environment
+vedx/
 
 # Spyder project settings
 .spyderproject
